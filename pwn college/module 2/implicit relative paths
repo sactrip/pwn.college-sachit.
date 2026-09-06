@@ -1,0 +1,25 @@
+# Implicit Relative Path
+>We'll explore the mechanisms behind this concept later, but in this challenge, we'll learn how to explicitly use relative paths to launch run in this scenario. The way to do this is to tell Linux that you explicitly want to execute a program in the current directory, using . like in the previous levels. Give it a try now!
+## Solve:
+I used cd to change the current working directory to '/' then I invoked the challenge run directory using implicit relative path by inputing 'challenge/run'
+```
+bash
+hacker@paths~implicit-relative-paths-from-:~$ cd /
+hacker@paths~implicit-relative-paths-from-:/$ challenge/run
+Correct!!!
+challenge/run is a relative path, invoked from the right directory!
+Here is your flag:
+pwn.college{AojCGyRvjkdDyd_iTNJMVqlqAWx.QX5QTN0wiM4ETOwIzW}
+```
+
+## Flag
+```
+put{AojCGyRvjkdDyd_iTNJMVqlqAWx.QX5QTN0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Changing Directory to a new folder with 'cd' command.
+- Command to invoke program by implicit relative path.
+
+## References
+- Video present in pwn.college.
