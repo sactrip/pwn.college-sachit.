@@ -1,0 +1,26 @@
+# Explicit relative paths,from /
+>This challenge will get you using . in your relative paths. Your current working directory must be /, and the relative path you use to invoke the challenge must begin with .. Get ready!
+## Solve:
+- Just used 'cd' to reach desired destination.
+- Also I used '.' and '/' for explicit path.
+```
+bash
+hacker@paths~explicit-relative-paths-from-:~$ cd /
+hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
+Correct!!!
+./challenge/run is a relative path, invoked from the right directory!
+Here is your flag:
+pwn.college{Ist03TRd1FTfqjUixp86BSVDSbF.QXwUTN0wiM4ETOwIzW}
+```
+## Flag
+```
+put{Ist03TRd1FTfqjUixp86BSVDSbF.QXwUTN0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Changing Directory to a new folder with 'cd' command.
+- Command to invoke program by explicit path.
+- We use '.' to signify current directory.
+
+## References
+- Video present in pwn.college.
