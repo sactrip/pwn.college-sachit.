@@ -1,0 +1,20 @@
+# More Catting practice
+>You can specify all sorts of paths as arguments to commands, and we'll practice some more with cat. In this level, I'll put the flag in some crazy directory, and I will not allow you to change directories with cd, so no cat flag for you. You must retrieve the flag by absolute path, wherever it is.
+
+## Solve:
+I first went to the home directory and then used cat to read flag with its absolute path
+```
+bash
+hacker@commands~more-catting-practice:~$ cat /usr/include/drm/flag
+pwn.college{AZP-La0n3FdT8pgx6U1oW5EEc__.QXwITO0wiM4ETOwIzW}
+```
+## Flag
+```
+put{AZP-La0n3FdT8pgx6U1oW5EEc__.QXwITO0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Cat command of terminal and its uses with absolute path while not using cd.
+
+## References
+- Video present in pwn.college.
