@@ -1,1 +1,24 @@
+# Intro to Commands
+>In this challenge you will invoke your first command
+
+## Solve:
+-I was just following instructions and trying to get used to the commands which are new to me
+```
+bash
+hacker@hello~intro-to-commands:~$ hello
+Success! Here is your flag:
+pwn.college{4xFtmIvrO_XFrI3P5HlSDce3fU1.QX3YjM1wiM4ETOwIzW}
+
+```
+
+## flag:
+```
+put{4xFtmIvrO_XFrI3P5HlSDce3fU1.QX3YjM1wiM4ETOwIzW}
+```
+## Concepts Learnt
+- To run commands in the terminal.
+
+## References
+- Video present in pwn.college.
+
 
