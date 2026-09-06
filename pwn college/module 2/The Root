@@ -1,0 +1,23 @@
+# The Roots
+>In this level, we've added a program right in /, called pwn, that will give you the flag. All you need to do for this level is to invoke this program!
+
+## Solve:
+I inputed the command '/pwn' and as output I invoked the program pwn
+```
+bash
+hacker@paths~the-root:~$ /pwn
+BOOM!!!
+Here is your flag:
+pwn.college{4OF2m579XgclBbx_rboyGB5wcrd.QX4cTO0wiM4ETOwIzW}
+```
+
+## Flag
+```
+put{4OF2m579XgclBbx_rboyGB5wcrd.QX4cTO0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Command to invoke program by absolute path.
+
+## References
+- Video present in pwn.college.
