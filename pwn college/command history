@@ -1,1 +1,19 @@
+# Command History
+>You're going to type a lot of commands, and typing everything from scratch can be annoying. Luckily, the shell saves a history of every command you invoke.
 
+## Solve:
+-I just used the up arrow key to navigate the history.
+```
+bash
+hacker@hello~command-history:~$ the flag is pwn.college{QY7PXaoCRSRE9J36zvYWq_dHboK.0lNzEzNxwiM4ETOwIzW}
+
+## flag:
+```
+put{QY7PXaoCRSRE9J36zvYWq_dHboK.0lNzEzNxwiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Navigation of command history via up/down arrows.
+
+## References
+- Video present in pwn.college.
