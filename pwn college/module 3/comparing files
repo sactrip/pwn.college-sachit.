@@ -1,0 +1,22 @@
+# Comparing Files
+>Use diff to find what's different between these files and get your flag!
+
+## Solve:
+- I first read through the challenge and understood the syntax for diff.Then implemented it to find real flag. 
+```
+bash
+hacker@commands~comparing-files:~$ diff /challenge/decoys_only.txt /challenge/decoys_and_real.txt
+72a73
+> pwn.college{oD39ojPyiDt_XcNRdFBN1VCK68h.01MwMDOxwiM4ETOwIzW}
+```
+
+## Flag
+```
+put{oD39ojPyiDt_XcNRdFBN1VCK68h.01MwMDOxwiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- For big files its hard to compare so we will find out exactly what's different in them using 'diff' command.
+
+## References
+- Video present in pwn.college.
