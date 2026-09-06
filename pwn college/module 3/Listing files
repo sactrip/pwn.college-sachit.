@@ -1,0 +1,23 @@
+# Listing Files
+>In this challenge, we've named /challenge/run with some random name! List the files in /challenge to find it. Then invoke the discovered absolute path to get the flag.
+## Solve:
+- Implemented ls straight away.
+```
+bash
+hacker@commands~listing-files:~$ cd /challenge
+hacker@commands~listing-files:/challenge$ ls
+11376-renamed-run-27550  Dockerfile
+hacker@commands~listing-files:/challenge$ ./11376-renamed-run-27550
+Yahaha, you found me! Here is your flag:
+pwn.college{IulnDa0BeucPn5klxbFryO4w9ZG.QX4IDO0wiM4ETOwIzW}
+```
+##Flag
+```
+put{IulnDa0BeucPn5klxbFryO4w9ZG.QX4IDO0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- To list different files in folder using 'ls'.
+
+## References
+- Video present in pwn.college.
