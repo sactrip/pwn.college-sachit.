@@ -1,1 +1,26 @@
+# Intro to Arguments
+>A command with arguments, which is what we call additional data passed to the command. When you type a line of text and hit enter, the shell actually parses your input into a command and its arguments.
 
+## Solve:
+Initially I typed the command echo hello as I didnt read the instructions properly and I got hello as the output, then I inputed the command for the task
+```
+bash
+hacker@hello~intro-to-arguments:~$ echo hello
+hello
+hacker@hello~intro-to-arguments:~$ hello hackers
+Success! Here is your flag:
+pwn.college{00uA5YYYN2OAt2KwZqyYx9Dn8Lp.QX4YjM1wiM4ETOwIzW}
+
+```
+
+## flag
+```
+put{00uA5YYYN2OAt2KwZqyYx9Dn8Lp.QX4YjM1wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Difference between argument and commands.
+- Echo command of terminal.
+
+## References
+- Video present in pwn.college.
