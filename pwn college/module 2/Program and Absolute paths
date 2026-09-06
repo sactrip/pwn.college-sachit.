@@ -1,0 +1,23 @@
+# Program and absolute paths
+>This challenge again requires you to execute it by invoking its absolute path. 
+
+## Solve:
+first I invoked the challenge directory and then the run file by inputing command '/challenge/run'
+```
+bash
+hacker@paths~program-and-absolute-paths:~$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path! Here is your flag:
+pwn.college{I5NQdv8XEemeWjrzfCb34FFfkxA.QX1QTN0wiM4ETOwIzW}
+```
+
+## flag:
+```
+put{I5NQdv8XEemeWjrzfCb34FFfkxA.QX1QTN0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Command to invoke program by absolute path.
+
+## References
+- Video present in pwn.college.
