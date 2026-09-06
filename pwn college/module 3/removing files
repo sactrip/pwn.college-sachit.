@@ -1,0 +1,26 @@
+# Removing Files
+>This challenge will create a delete_me file in your home directory! Delete it, then run /challenge/check, which will make sure you've deleted it and then give you the flag!
+
+## Solve:
+- Removed using 'rm' command.
+```
+bash
+hacker@commands~removing-files:~$ ls
+c  delete_me
+hacker@commands~removing-files:~$ rm delete_me
+hacker@commands~removing-files:~$ ls
+c
+hacker@commands~removing-files:~$ /challenge/check
+Excellent removal. Here is your reward:
+pwn.college{w9K8jC1vXKGekD6BVWRdFyGnVWk.QX2kDM1wiM4ETOwIzW}
+```
+## Flag
+```
+put{w9K8jC1vXKGekD6BVWRdFyGnVWk.QX2kDM1wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- To remove files in folder using 'rm'.
+
+## References
+- Video present in pwn.college.
