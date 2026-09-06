@@ -1,0 +1,30 @@
+# Position thy self
+>This challenge will require you to execute the /challenge/run program from a specific path (which it will tell you). You'll need to cd to that directory before rerunning the challenge program. Good luck!
+
+## Solve:
+Initially I had trouble figuring out which directory I was in while using the cd command then after analysing the error I figured I was not in the right directory which was '/sys/kernel' so I used the cd command to change directories then I ran the challenge run program by inputing /challenge/run
+```
+bash
+hacker@paths~position-thy-self:/sys/kernel$ cd /usr/bin
+hacker@paths~position-thy-self:/usr/bin$ /challenge/run
+Incorrect...
+You are not currently in the /sys/kernel directory.
+Please use the `cd` utility to change directory appropriately.
+hacker@paths~position-thy-self:/usr/bin$ cd /sys/kernel
+hacker@paths~position-thy-self:/sys/kernel$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path, invoked from the right directory!
+Here is your flag:
+pwn.college{oSCBb_XMF6YSWE7PMg7Dfdl0n_d.QX2QTN0wiM4ETOwIzW}
+```
+
+## Flag
+```
+put{oSCBb_XMF6YSWE7PMg7Dfdl0n_d.QX2QTN0wiM4ETOwIzW}
+```
+## Concepts Learnt
+- Changing Directory to a new folder with 'cd' command.
+- Command to invoke program by absolute path.
+
+## References
+- Video present in pwn.college.
