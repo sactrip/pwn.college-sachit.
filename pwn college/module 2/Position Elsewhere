@@ -1,0 +1,58 @@
+# Position elsewhere
+>Same thing, but 5 times!
+
+## Solve:
+- First I had to figure out which directory to go to then I Just used 'cd' to reach desired destination.
+```
+bash
+hacker@paths~position-elsewhere:~$ cd /sys/kernel
+hacker@paths~position-elsewhere:/sys/kernel$ /challenge/run
+Starting level 1.
+Incorrect...
+You are not currently in the /tmp directory.
+Please use the `cd` utility to change directory appropriately.
+hacker@paths~position-elsewhere:/sys/kernel$ cd /tmp
+hacker@paths~position-elsewhere:/tmp$ /challenge/run
+Starting level 1.
+Correct!!!
+/challenge/run is an absolute path, invoked from the right directory!
+Moving on to level 2
+Please use the `cd` utility to change directory to /etc
+hacker@paths~position-elsewhere:/tmp$ cd /etc
+hacker@paths~position-elsewhere:/etc$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path, invoked from the right directory!
+Moving on to level 3
+Please use the `cd` utility to change directory to /usr/share/build-essential
+hacker@paths~position-elsewhere:/etc$ cd /usr/share/build/build-essential
+bash: cd: /usr/share/build/build-essential: No such file or directory
+hacker@paths~position-elsewhere:/etc$ cd /usr/share/build-essential
+hacker@paths~position-elsewhere:/usr/share/build-essential$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path, invoked from the right directory!
+Moving on to level 4
+Please use the `cd` utility to change directory to /var/log
+hacker@paths~position-elsewhere:/usr/share/build-essential$ cd /var/log
+hacker@paths~position-elsewhere:/var/log$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path, invoked from the right directory!
+Moving on to level 5
+Please use the `cd` utility to change directory to /sys/kernel
+hacker@paths~position-elsewhere:/var/log$ cd /sys/kernel
+hacker@paths~position-elsewhere:/sys/kernel$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path, invoked from the right directory!
+Here is your flag:
+pwn.college{MttvhENDPToRW8hHUW8ik6Boz6A.QX3QTN0wiM4ETOwIzW}
+```
+
+## flag:
+```
+put{MttvhENDPToRW8hHUW8ik6Boz6A.QX3QTN0wiM4ETOwIzW}
+```
+## Concepts Learnt
+- Changing Directory to a new folder with 'cd' command.
+- Command to invoke program by absolute path.
+
+## References
+- Video present in pwn.college.
