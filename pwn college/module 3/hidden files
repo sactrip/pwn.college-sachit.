@@ -1,0 +1,7 @@
+# Hidden Files
+>Go find the flag, hidden as a dot-prepended file in /.
+
+## Solve:
+- Read the information and understood how to see hidden files.
+```
+bash
