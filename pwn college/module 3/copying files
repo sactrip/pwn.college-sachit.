@@ -1,0 +1,23 @@
+# Copying Files
+>This challenge wants you to copy the /flag file to /tmp/hack-the-planet (do it)! When you're done, run /challenge/check, which will check things out and give the flag to you.
+
+## Solve:
+- Copied using 'cp' command.
+```
+bash
+hacker@commands~copying-files:~$ cp /flag /tmp/hack-the-planet
+Correct! Performing 'cp /flag /tmp/hack-the-planet'.
+hacker@commands~copying-files:~$ /challenge/check
+Congrats! You successfully copied the flag to /tmp/hack-the-planet! Here it is:
+pwn.college{cOaa6RIfMAj4p7zMu2UBFeJUT9w.0lNxQTMywiM4ETOwIzW}
+```
+## Flag
+```
+put{cOaa6RIfMAj4p7zMu2UBFeJUT9w.0lNxQTMywiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- To copy files in folder using 'cp'.
+
+## References
+- Video present in pwn.college.
