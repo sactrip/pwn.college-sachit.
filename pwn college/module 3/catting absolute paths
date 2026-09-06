@@ -1,0 +1,20 @@
+# Catting absolute paths
+>In this challenge, I will not copy it to your home directory, but I will make it readable. You can read it with cat at its absolute path: /flag.
+
+## Solve:
+- I first went to the home directory and then used cat to read flag with its path.
+```
+bash
+hacker@commands~catting-absolute-paths:~$ cat /flag
+pwn.college{oHhiMdqBomOcVBbzU2V7_WwaHu4.QX5ETO0wiM4ETOwIzW}
+```
+
+##Flag
+```
+put{oHhiMdqBomOcVBbzU2V7_WwaHu4.QX5ETO0wiM4ETOwIzW}
+```
+## Concepts Learnt
+- Cat command of terminal and its uses with path.
+
+## References
+- Video present in pwn.college.
