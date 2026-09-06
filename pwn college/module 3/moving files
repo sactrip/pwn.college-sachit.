@@ -1,0 +1,25 @@
+# Moving Files
+>This challenge wants you to move the /flag file into /tmp/hack-the-planet (do it)! Note, you must use the mv command rather than other methods (such as renaming the file in VSCode). When you're done, run /challenge/check, which will check things out and give the flag to you.
+
+## Solve:
+- Moved using 'mv' command.
+```
+bash
+hacker@commands~moving-files:~$ ls
+c
+hacker@commands~moving-files:~$ mv /flag /tmp/hack-the-planet
+Correct! Performing 'mv /flag /tmp/hack-the-planet'.
+hacker@commands~moving-files:~$ /challenge/check
+Congrats! You successfully moved the flag to /tmp/hack-the-planet! Here it is:
+pwn.college{kFmHRPffMQJHJBUM2o8EWhrYDEV.0VOxEzNxwiM4ETOwIzW}
+```
+## Flag
+```
+put{kFmHRPffMQJHJBUM2o8EWhrYDEV.0VOxEzNxwiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- To move files in folder using 'mv'.
+
+## References
+- Video present in pwn.college.
