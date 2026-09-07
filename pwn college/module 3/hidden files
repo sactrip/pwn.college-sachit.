@@ -5,3 +5,18 @@
 - Read the information and understood how to see hidden files.
 ```
 bash
+
+
+```
+
+## Flag
+```
+put{}
+```
+
+## Concepts Learnt
+- To see hidden files in folder using 'ls -a'.
+- Read hidden files.
+
+## References
+- Video present in pwn.college.
