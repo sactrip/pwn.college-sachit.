@@ -1,0 +1,34 @@
+# Finding Files
+>Now it's your turn. I've hidden the flag in a random directory on the filesystem. It's still called flag. Go find it!
+
+## Solve:
+- Used 'find' to create file directories.
+```
+bash
+hacker@commands~finding-files:~$ find / -name flag
+find: ‘/etc/ssl/private’: Permission denied
+/usr/lib/python3/dist-packages/pwnlib/flag
+/usr/share/apport/package-hooks/flag
+find: ‘/var/cache/apt/archives/partial’: Permission denied
+find: ‘/var/cache/ldconfig’: Permission denied
+find: ‘/var/lib/apt/lists/partial’: Permission denied
+find: ‘/root’: Permission denied
+^C
+hacker@commands~finding-files:~$ find /usr/share/apport/package-hooks/flag
+/usr/share/apport/package-hooks/flag
+hacker@commands~finding-files:~$ cat/usr/share/apport/package-hooks/flag
+bash: cat/usr/share/apport/package-hooks/flag: No such file or directory
+hacker@commands~finding-files:~$ cat /usr/share/apport/package-hooks/flag
+pwn.college{cw_zsD_TyJ9FmqrJq5g_VIT0_ur.QXyMDO0wiM4ETOwIzW}
+```
+
+## Flag
+```
+put{cw_zsD_TyJ9FmqrJq5g_VIT0_ur.QXyMDO0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Learnt to use 'find'.
+
+## References
+- Video present in pwn.college.
