@@ -1,0 +1,26 @@
+# Mixing Globs
+>Now, let's put the previous levels together! We put a few happy, but diversely-named files in /challenge/files. Go cd there and, using the globbing you've learned, write a single, short (6 characters or less) glob that (when passed as an argument to /challenge/run) will match only the files "challenging", "educational", and "pwning"!
+
+## Solve:
+- I first read through the challenge and understood the syntax for the globs.Then implemented it to find flag.I also noticed them being the only files starting with c,e and p.
+```
+bash
+hacker@globbing~mixing-globs:~$ cd /challenge/files
+hacker@globbing~mixing-globs:/challenge/files$ ls
+amazing    challenging  educational  great  incredible  kind      magical  optimistic  queenly  splendid   uplifting   wonderful  youthful
+beautiful  delightful   fantastic    happy  jovial      laughing  nice     pwning      radiant  thrilling  victorious  xenial     zesty
+hacker@globbing~mixing-globs:/challenge/files$ /challenge/run [cep]*
+You got it! Here is your flag!
+pwn.college{ENOEzVq1ve9GFJvATJ8QZ8vgjoq.QX1IDO0wiM4ETOwIzW}
+```
+
+## Flag
+```
+put{ENOEzVq1ve9GFJvATJ8QZ8vgjoq.QX1IDO0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Multiple glob usage is used to specify autofill for various characters.
+
+## References
+- Video present in pwn.college.
