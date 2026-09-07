@@ -1,0 +1,23 @@
+# Matching with []
+>Try it here! We've placed a bunch of files in /challenge/files. Change your working directory to /challenge/files and run /challenge/run with a single argument that bracket-globs into file_b, file_a, file_s, and file_h!
+
+## Solve:
+- I first read through the challenge and understood the syntax for single character wildcard.Then implemented it to find flag. 
+```
+bash
+hacker@globbing~matching-with-:~$ cd /challenge/files
+hacker@globbing~matching-with-:/challenge/files$ /challenge/run file_[absh]
+You got it! Here is your flag!
+pwn.college{sK3mzr5jPBe2TRhXgPM-xLs0Zfs.QXzIDO0wiM4ETOwIzW}
+```
+
+## Flag
+```
+put{sK3mzr5jPBe2TRhXgPM-xLs0Zfs.QXzIDO0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- '[]' is used to specify autofill for various characters.
+
+## References
+- Video present in pwn.college.
