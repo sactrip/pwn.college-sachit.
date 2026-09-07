@@ -1,0 +1,26 @@
+# Matching paths with []
+>Now it's your turn. Once more, we've placed a bunch of files in /challenge/files. Starting from your home directory, run /challenge/run with a single argument that bracket-globs into the absolute paths to the file_b, file_a, file_s, and file_h files!
+
+## Solve:
+- I first read through the challenge and understood the syntax for single character wildcard with paths.Then implemented it to find flag. 
+```
+bash
+hacker@globbing~matching-paths-with-:~$ /challenge/run [absh]
+Error: you will need to specify the path to the files as part of your glob 
+argument, since they are in a different directory than your current working 
+directory!
+hacker@globbing~matching-paths-with-:~$ /challenge/run /challenge/files/file_[absh]
+You got it! Here is your flag!
+pwn.college{cW2YRknEODG9brNiPaEkDnWSR8h.QX0IDO0wiM4ETOwIzW}
+```
+
+## Flag
+```
+put{cW2YRknEODG9brNiPaEkDnWSR8h.QX0IDO0wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- '[]' is used to specify autofill for various characters.
+
+## References
+- Video present in pwn.college.
