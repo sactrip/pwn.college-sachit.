@@ -8,12 +8,12 @@ bash
 hacker@globbing~matching-with-:~$ cd /c*
 hacker@globbing~matching-with-:/challenge$ /challenge/run
 You ran me with the working directory of /challenge! Here is your flag:
-pwn.college{4_PTbXunPlJ0HqpIH9YgypZk-vc.QXxIDO0wSO5gjNwIzW}
+pwn.college{8iaJBm5IkGO5ejzljizORKPb25U.QXxIDO0wiM4ETOwIzW}
 ```
 
 ## Flag
 ```
-put{4_PTbXunPlJ0HqpIH9YgypZk-vc.QXxIDO0wSO5gjNwIzW}
+put{8iaJBm5IkGO5ejzljizORKPb25U.QXxIDO0wiM4ETOwIzW}
 ```
 
 ## Concepts Learnt
