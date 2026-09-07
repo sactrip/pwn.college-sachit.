@@ -1,0 +1,25 @@
+# Finding Files
+>Okay, now you try it! In this level the flag is, as always, in /flag, but /challenge/catflag will instead read out /home/hacker/not-the-flag. The path /home/hacker/not-the-flag is the link name in this challenge. Choose the target that will fool /challenge/catflag into giving you the flag!
+
+## Solve:
+- Used 'ln' to link file directories and file to see the links.
+```
+bash
+hacker@commands~linking-files:~$ ln -s /flag /not-the-flag
+ln: failed to create symbolic link '/not-the-flag': Permission denied
+hacker@commands~linking-files:~$ ln -s /flag ~/not-the-flag
+hacker@commands~linking-files:~$ /challenge/catflag
+About to read out the /home/hacker/not-the-flag file!
+pwn.college{U8ZZ8qF0mXo0K7RF2PVCRkKOmRz.QX5ETN1wiM4ETOwIzW}
+```
+
+## Flag
+```
+put{U8ZZ8qF0mXo0K7RF2PVCRkKOmRz.QX5ETN1wiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Learnt to use 'ln' and 'file'.
+
+## References
+- Video present in pwn.college.
