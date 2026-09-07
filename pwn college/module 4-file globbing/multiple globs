@@ -1,0 +1,23 @@
+# Multiple globs
+>Now you try it. We put a few happy, but diversely-named files in /challenge/files. Go cd there and run /challenge/run, providing a single argument: a short (3 characters or less) globbed word with two * globs in it that covers every word that contains the letter p.
+
+## Solve:
+- I first read through the challenge and understood the syntax for the globs.Then implemented it to find flag. 
+```
+bash
+hacker@globbing~multiple-globs:~$ cd /challenge/files
+hacker@globbing~multiple-globs:/challenge/files$ /challenge/run *p*
+You got it! Here is your flag!
+pwn.college{IU6oVzvujOrulsa_Z0Q9SxiXPmk.0lM3kjNxwiM4ETOwIzW}
+```
+
+## Flag
+```
+put{IU6oVzvujOrulsa_Z0Q9SxiXPmk.0lM3kjNxwiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Multiple glob usage is used to specify autofill for various characters.
+
+## References
+- Video present in pwn.college.
