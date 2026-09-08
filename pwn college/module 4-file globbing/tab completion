@@ -1,0 +1,21 @@
+# Tab Completion
+>This challenge has copied the flag into /challenge/pwncollege, and you can freely cat that file. But you can't type the filename: we used some serious trickery to make sure that you must tab-complete it. Try it out!
+
+## Solve:
+- I first read through the challenge and understood the syntax for the tab completion and disadvantage of globs.Then implemented it to find flag.
+```
+bash
+hacker@globbing~tab-completion:~$ cat /challenge/pwncollege​ 
+pwn.college{0hPZkjNyc52sF17eMs70MiWhsVB.0FN0EzNxwiM4ETOwIzW}
+```
+
+## Flag
+```
+put{0hPZkjNyc52sF17eMs70MiWhsVB.0FN0EzNxwiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Tab is used to specify autofill for various characters.
+
+## References
+- Video present in pwn.college.
