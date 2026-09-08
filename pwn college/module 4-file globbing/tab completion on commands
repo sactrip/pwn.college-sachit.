@@ -1,0 +1,24 @@
+# Tab Completion On Commands
+>Tab completion is for more than files! You can also tab-complete commands. This level has a command that starts with pwncollege, and it'll give you the flag. Type pwncollege and hit the tab key to auto-complete it!
+
+
+
+## Solve:
+- I first read through the challenge and understood the syntax for the tab completion and disadvantage of globs.Then implemented it to find flag specially for commands.
+```
+bash
+hacker@globbing~tab-completion-on-commands:~$ pwncollege-4023 
+Correct! Here is your flag:
+pwn.college{E-vF7oKhCU_Q6YkJGO_qg6Bq4Wo.0VN0EzNxwiM4ETOwIzW}
+```
+
+## Flag
+```
+put{E-vF7oKhCU_Q6YkJGO_qg6Bq4Wo.0VN0EzNxwiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Tabbing commands.
+
+## References
+- Video present in pwn.college.
