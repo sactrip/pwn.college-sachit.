@@ -1,1 +1,24 @@
+# Multiple Options For Tab Completion
+>This challenge has a /challenge/files directory with a bunch of files starting with pwncollege. Tab-complete from /challenge/files/p or so, and make your way to the flag!
 
+## Solve:
+- I first read through the challenge and understood the syntax for the tab completion and disadvantage of globs.Then implemented it to find flag.
+```
+bash
+hacker@globbing~multiple-options-for-tab-completion:~$ cat /challenge/files/pwn
+pwn                    pwn-the-planet         pwncollege-flag        pwncollege-flyswatter  
+pwn-college            pwncollege-family      pwncollege-flamingo    pwncollege-hacking     
+hacker@globbing~multiple-options-for-tab-completion:~$ cat /challenge/files/pwncollege-flag
+pwn.college{whZgr-0UnYx6QgvI_wQzB4RSsHI.0lN0EzNxwiM4ETOwIzW}
+```
+
+## Flag
+```
+put{whZgr-0UnYx6QgvI_wQzB4RSsHI.0lN0EzNxwiM4ETOwIzW}
+```
+
+## Concepts Learnt
+- Multiple files ,tab is used to specify autofill for various characters.
+
+## References
+- Video present in pwn.college.
